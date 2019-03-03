@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <nav id="globalNav" class="">
-      
+    <nav id="globalNav" class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Vue Profile</a>
+      </div>
     </nav>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
@@ -30,5 +28,10 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 </style>
