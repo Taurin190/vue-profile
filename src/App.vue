@@ -6,8 +6,20 @@
       </div>
     </nav>
     <router-view />
+    <AppFooter />
   </div>
 </template>
+<script>
+import AppFooter from '@/components/AppFooter.vue'
+
+export default {
+  name: "top",
+  components: {
+    AppFooter
+  }  
+}
+</script>
+
 
 <style>
 #app {

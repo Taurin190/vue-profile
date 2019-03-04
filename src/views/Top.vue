@@ -1,17 +1,17 @@
 <template>
-  <div class="container">
+  <main class="container">
     <div>
       <AppSidebar />
       <div id="mainContainer">
         <Overview />
-        Top Hoge
+        <Account />
       </div>
     </div>
-    <AppFooter />
-  </div>
+  </main>
 </template>
 <script>
 import Overview from '@/components/Overview.vue'
+import Account from '@/components/Account.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 import AppFooter from '@/components/AppFooter.vue'
 
@@ -19,13 +19,16 @@ export default {
     name: "top",
     components: {
         Overview,
-        AppSidebar,
-        AppFooter
+        Account,
+        AppSidebar
     }
 }
 </script>
 
 <style>
+main {
+  margin-top: 54px;
+}
 #mainContainer {
   margin-top: 80px;
   padding: 15px;
