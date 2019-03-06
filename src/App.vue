@@ -46,4 +46,8 @@ export default {
   color: #fed136;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
+
+.contentContainer {
+  margin: 10px;
+}
 </style>

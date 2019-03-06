@@ -1,42 +1,42 @@
 <template>
-<div id="overviewContainer">
-  <div id="overviewHeader" class="clearfix">
-    <div id="photoContainer" class="float-lg-right mx-auto">
-        <img class="img-thumbnail" src="../assets/img/computer_hacker_black1.png"/>
-    </div>
-    <div id="profileOutlineContainer" class="float-lg-left w-lg-75">
-        <h1 class="text-left">
-          <span>あああああああ</span>
-        </h1>
-        <div id="introduction" class="text-left">
-            私はこれこれこのようああああああああああああああああああああああああああああああああああああああああ
-        </div>
-        <div class="contentPanel">
-          <div>
-            <h3>プロフィール</h3>
+  <div id="overviewContainer" class="contentContainer">
+    <div id="overviewHeader" class="clearfix">
+      <div id="photoContainer" class="float-lg-right mx-auto">
+          <img class="img-thumbnail" src="../assets/img/computer_hacker_black1.png"/>
+      </div>
+      <div id="profileOutlineContainer" class="float-lg-left w-lg-75">
+          <h1 class="text-left">
+            <span>あああああああ</span>
+          </h1>
+          <div id="introduction" class="text-left">
+              私はこれこれこのようああああああああああああああああああああああああああああああああああああああああ
           </div>
-          <div>
-            <div class="engagementInfo-line">
-              <div class="engagementInfo-content engagementInfo-content js-countType clearfix" data-type="visits">
-                <span class="engagementInfo-param">生年月日</span>
-                <span class="engagementInfo-value">
-              <span class="engagementInfo-valueNumber js-countValue">1986年5月1日（32歳）</span>
-                </span>
+          <div class="contentPanel">
+            <div>
+              <h3 class="text-left">プロフィール</h3>
+            </div>
+            <div>
+              <div class="engagementInfo-line">
+                <div class="engagementInfo-content engagementInfo-content js-countType clearfix" data-type="visits">
+                  <span class="engagementInfo-param">生年月日</span>
+                  <span class="engagementInfo-value">
+                <span class="engagementInfo-valueNumber js-countValue">1986年5月1日（32歳）</span>
+                  </span>
+                </div>
+              </div>
+              <div class="engagementInfo-line">
+                <div class="engagementInfo-content engagementInfo-content js-countType clearfix" data-type="visits">
+                  <span class="engagementInfo-param">出身地</span>
+                  <span class="engagementInfo-value">
+                <span class="engagementInfo-valueNumber js-countValue">日本</span>
+                  </span>
+                </div>
               </div>
             </div>
-            <div class="engagementInfo-line">
-              <div class="engagementInfo-content engagementInfo-content js-countType clearfix" data-type="visits">
-                <span class="engagementInfo-param">出身地</span>
-                <span class="engagementInfo-value">
-              <span class="engagementInfo-valueNumber js-countValue">日本</span>
-                </span>
-              </div>
-            </div>
           </div>
-        </div>
+      </div>
     </div>
   </div>
-</div>
 </template>
 <script>
 export default {

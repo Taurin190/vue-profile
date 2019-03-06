@@ -5,6 +5,11 @@
       <div id="mainContainer">
         <Overview />
         <Account />
+        <Audience />
+        <Personality />
+        <Friend />
+        <RelatedLinks />
+        <Oeuvre />
       </div>
     </div>
   </main>
@@ -12,14 +17,23 @@
 <script>
 import Overview from '@/components/Overview.vue'
 import Account from '@/components/Account.vue'
+import Audience from '@/components/Audience.vue'
+import Personality from '@/components/Personality.vue'
+import Friend from '@/components/Friends.vue'
+import RelatedLinks from '@/components/RelatedLinks.vue'
+import Oeuvre from '@/components/Oeuvre.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
-import AppFooter from '@/components/AppFooter.vue'
 
 export default {
     name: "top",
     components: {
         Overview,
         Account,
+        Audience,
+        Personality,
+        Friend,
+        RelatedLinks,
+        Oeuvre,
         AppSidebar
     }
 }
