@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="col-lg-7 col-lg-pull-5">
-        <div id="chart_div"></div>
+        <LineChart />
       </div>
     </div>
     <div class="row">
@@ -68,13 +68,11 @@
   </div>
 </template>
 <script>
+import LineChart from '@/components/LineChart.vue'
 export default {
-    name: 'Account'
+    name: 'Account',
+    components :{
+        LineChart
+    }
 }
 </script>
-
-<style>
-
-</style>
-
-
