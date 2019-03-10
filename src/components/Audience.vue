@@ -4,11 +4,11 @@
   <div>
     <h3 class="text-left">オーディエンス統計</h3>
     <div class="row">
-      <div class="col-lg-5 col-lg-push-7 contentContainer">
+      <div class="col-lg-5 col-lg-push-7">
         <h3 class="text-left">出現回数</h3>
         <div class="engagementInfo-line">
           <div class="engagementInfo-content">
-            <span class="engagementInfo-param">エンジニアリング</span>
+            <span class="engagementInfo-param">エンジニア</span>
             <span class="engagementInfo-value">100</span>
           </div>
         </div>
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="col-lg-7 wordCloudContainer text-center col-lg-pull-5">
-        <div class="wordCloud"></div>
+        <BarChart />
       </div>
     </div>
   </div>
@@ -120,8 +120,12 @@
 </div>
 </template>
 <script>
+import BarChart from '@/components/BarChart.vue'
 export default {
-    name: 'Audience'
+    name: 'Audience',
+    components: {
+        BarChart
+    }
 }
 </script>
 <style>
