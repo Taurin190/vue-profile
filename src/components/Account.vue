@@ -2,7 +2,7 @@
   <div id="accountContainer" class="contentContainer">
     <h2 class="text-left">アカウント</h2>
     <div class="row">
-      <div class="col-lg-5 col-lg-push-7 contentContainer">
+      <div class="col-lg-5 col-lg-push-7">
         <h3 class="text-left">Twitter情報</h3>
         <div class="engagementInfo-line">
           <div class="engagementInfo-content">
