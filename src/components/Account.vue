@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 contentContainer">
+      <div class="col-lg-6">
         <h3 class="text-left">ツイートの話題</h3>
         <div class="engagementInfo-line">
           <div class="engagementInfo-content">
@@ -62,17 +62,19 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div id="piechart"></div>
+        <PieChart />
       </div>
     </div>
   </div>
 </template>
 <script>
 import LineChart from '@/components/LineChart.vue'
+import PieChart from '@/components/PieChart.vue'
 export default {
     name: 'Account',
     components :{
-        LineChart
+        LineChart,
+        PieChart
     }
 }
 </script>
