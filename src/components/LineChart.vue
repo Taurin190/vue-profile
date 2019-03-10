@@ -1,8 +1,9 @@
 <script>
-  import Line from 'vue-chartjs'
+  import VueCharts from 'vue-chartjs'
+  import {Line, mixins} from 'vue-chartjs'
   export default {
     name: 'LineChart', 
-    extends: Line,
+    mixins: [Line, mixins.reactiveData],
     data () {
       return {
         datacollection: {
